@@ -1,0 +1,195 @@
+ .section1 {
+     height: 72px;
+     background-color: #fbfbfd;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .section1 .blue-link {
+     margin-left: 15px;
+     font-size: 12px;
+ }
+ 
+ .icon-arrowup {
+     font-size: 12px;
+     display: inline-block;
+     transform: rotate(45deg);
+ }
+ /*  */
+ 
+ .section2 .common {
+     width: 100%;
+     height: 704px;
+     padding-top: 55px;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-color: #fbfbfd;
+ }
+ 
+ .common+.common {
+     margin-top: 10px;
+ }
+ 
+ .section2 .iphone-13 {
+     background-image: url('../images/image15.jpg');
+ }
+ 
+ .section2 .iphone-se {
+     background-image: url('../images/image16.jpg');
+ }
+ 
+ .section2 .ipad-air {
+     background-image: url('../images/image14.jpg');
+     position: relative;
+ }
+ 
+ .homepage-section .ipad-air .content-wrapper {
+     position: absolute;
+     left: 0;
+     top: 0;
+     width: 60%;
+     padding-top: 253px;
+ }
+ 
+ .homepage-section .ipad-air .headline {
+     background-image: url('../images/image17.png');
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+ 
+ .homepage-section .links .blue-link {
+     color: #2997ff;
+ }
+ 
+ .homepage-section .headline {
+     height: 60px;
+     text-align: center;
+     font-size: 56px;
+     color: #1d1d1f;
+     font-weight: 600;
+     line-height: 60px;
+ }
+ 
+ .homepage-section .content-wrapper h3 {
+     text-align: center;
+     margin-top: 10px;
+     font-size: 28px;
+     color: #1d1d1f;
+ }
+ 
+ .homepage-section .ipad-air .content-wrapper h3 {
+     color: #f5f5f7;
+ }
+ 
+ .homepage-section .avail {
+     text-align: center;
+     margin-top: 10px;
+     font-size: 21px;
+     color: #86868b;
+ }
+ 
+ .homepage-section .links {
+     text-align: center;
+     margin-top: 10px;
+ }
+ 
+ .homepage-section .links a {
+     font-size: 20px;
+     line-height: 22px;
+     position: relative;
+ }
+ 
+ .homepage-section .links a+a {
+     margin-left: 40px
+ }
+ 
+ .homepage-section .links .blue-link::before {
+     content: '\e600';
+     color: #06c;
+     display: inline-block;
+     font-size: 12px;
+     position: absolute;
+     right: -15px;
+     font-weight: 600;
+     top: 0px;
+ }
+ /* 集合 */
+ 
+ .collection {
+     display: grid;
+     grid-gap: 12px;
+     grid-template-columns: repeat(2, 1fr);
+     margin: 12px 0;
+ }
+ 
+ .collection .item {
+     background-color: #f5f5f7;
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 580px;
+ }
+ 
+ .item.studio-display {
+     background-image: url('../images/image25.jpg');
+ }
+ 
+ .item.mac-studio {
+     background-image: url('../images/image23.jpg');
+ }
+ 
+ .item.iphone-13 {
+     background-image: url('../images/image20.jpg');
+ }
+ 
+ .item.watch {
+     background-image: url('../images/image26.jpg');
+ }
+ 
+ .item.card {
+     background-image: url('../images/image27.jpg');
+ }
+ 
+ .item.tv {
+     background-image: url('../images/image24.jpg');
+ }
+ 
+ .collection .content-wrapper {
+     padding-top: 35px;
+ }
+ 
+ .homepage-section .headline {
+     font-size: 40px;
+ }
+ 
+ .collection .content-wrapper h3 {
+     font-size: 21px;
+ }
+ 
+ .collection .avail {
+     font-size: 17px;
+ }
+ 
+ .collection .links a {
+     font-size: 17px;
+     line-height: 17px;
+ }
+ 
+ .tv .content-wrapper>h4 {
+     font-size: 40px;
+     width: 320px;
+     height: 240px;
+     margin: 90px auto 90px;
+     color: #f5f5f7;
+     font-weight: 800;
+     background-image: url('../images/image21.png');
+     background-repeat: no-repeat;
+ }
+ 
+ .tv .content-wrapper .info {
+     width: 350px;
+     color: #f5f5f7;
+     font-size: 21px;
+     margin: 0 auto;
+ }

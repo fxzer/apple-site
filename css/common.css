@@ -1,0 +1,11 @@
+.blue-link {
+    color: #06c;
+}
+
+.blue-link:hover {
+    text-decoration: underline;
+}
+
+* {
+    font-family: SF Pro Text, Myriad Set Pro, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
