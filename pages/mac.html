@@ -5,14 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apple</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/common.css">
+    <title>Mac</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_3241864_y5olqh57uek.css">
-    <link rel="stylesheet" href="./css/nav.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/index-sections.css">
-
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .image {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .imac img {
+            display: block;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(calc(-50% - 30px), 0);
+        }
+        
+        .imac h2 {
+            width: 290px;
+            font-size: 72px;
+            color: #1d1d1d;
+            position: relative;
+            left: 50%;
+            position: sticky;
+            font-family: Helvetica;
+            margin: 100px 0 0;
+            padding: 0;
+            letter-spacing: -.012em;
+            top: -1px;
+            font-weight: normal;
+            transform: scale(clamp(0.15, var(--scale), 1));
+            transform-origin: 0% 0%;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,18 +54,18 @@
     <nav id="global-nav">
         <ul class="header">
             <li class="nav-item">
-                <a href="index.html" class="nav-link iconfont icon-apple-fill"> </a>
+                <a href="../index.html" class="nav-link iconfont icon-apple-fill"> </a>
             </li>
-            <li class="nav-item"><a href="./pages/store.html" class="nav-link">Store</a></li>
+            <li class="nav-item"><a href="./store.html" class="nav-link">Store</a></li>
             <li class="nav-item"><a href="./pages/mac.html" class="nav-link">Mac</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">iPad</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">iPhone</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Watch</a></li>
+            <li class="nav-item"><a href="./ipad.html" class="nav-link">iPad</a></li>
+            <li class="nav-item"><a href="./iphonese.html" class="nav-link">iPhone</a></li>
+            <li class="nav-item"><a href="./iphone13.html" class="nav-link">Watch</a></li>
             <li class="nav-item"><a href="#" class="nav-link">AirPods</a></li>
-            <li class="nav-item"><a href="./pages/homepod.html" class="nav-link">TV & Home</a></li>
-            <li class="nav-item"><a href="./pages/niublity.html" class="nav-link">Only on Apple </a></li>
+            <li class="nav-item"><a href="./homepod.html" class="nav-link">TV & Home</a></li>
+            <li class="nav-item"><a href="./niublity.html" class="nav-link">Only on Apple </a></li>
             <li class="nav-item"><a href="#" class="nav-link">Accessories</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Support</a></li>
+            <li class="nav-item"><a href="./pages/niublity.html" class="nav-link">Support</a></li>
             <li class="nav-item">
                 <a href="#" class="nav-link iconfont icon-search "> </a>
             </li>
@@ -40,114 +74,13 @@
             </li>
         </ul>
     </nav>
-    <section class="homepage-section section1">
-        <img src="./images/index/unicef.png" alt="">
-        <a href="#" class="blue-link iconfont">Donate to support families affected by the crisis in Ukraine <i
-                class="iconfont icon-arrowup"></i></a>
-    </section>
-
     <!-- 主体 -->
-    <section class="homepage-section section2">
-        <div class="iphone-13 common">
-            <div class="content-wrapper">
-                <h2 class="headline">iPhone 13 Pro</h2>
-                <h3>Now in Alpine Green.</h3>
-                <p class="avail">Available starting 3.18</p>
-                <div class="links">
-                    <a href="" class="blue-link iconfont">Learn more </a>
-                    <a href="" class="blue-link iconfont">Shop </a>
-                </div>
-            </div>
+    <div class="imac">
+        <h2 style="--scale: 1">Only 11.5mm. Now that's thin.</h2>
+        <div class="image">
+            <img src="https://www.apple.com/105/media/us/imac-24/2021/5e004d75-3ad6-4bb9-ab59-41f891fc52f0/anim/design-hero/large/flow/flow_startframe.jpg" alt="">
         </div>
-        <div class="iphone-se common">
-            <div class="content-wrapper">
-                <h2 class="headline">iPhone SE</h2>
-                <h3>Love the power. Love the price.</h3>
-                <p class="avail">Available starting 3.18</p>
-                <div class="links">
-                    <a href="" class="blue-link iconfont">Learn more </a>
-                    <a href="" class="blue-link iconfont">Pre-order </a>
-                </div>
-            </div>
-        </div>
-        <div class="ipad-air common">
-            <div class="content-wrapper">
-                <h2 class="headline"> </h2>
-                <h3>Light. Bright. Full of might.</h3>
-                <p class="avail">Available starting 3.18</p>
-                <div class="links">
-                    <a href="" class="blue-link iconfont">Learn more </a>
-                    <a href="" class="blue-link iconfont">Oder now </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="homepage-section  collection">
-        <div class="item studio-display">
-            <div class="content-wrapper">
-                <h2 class="headline">Studio Display</h2>
-                <h3>Now in Alpine Green.</h3>
-                <p class="avail">Available starting 3.18</p>
-                <div class="links">
-                    <a href="" class="blue-link iconfont">Learn more </a>
-                    <a href="" class="blue-link iconfont">Shop </a>
-                </div>
-            </div>
-        </div>
-        <div class="item mac-studio">
-            <div class="content-wrapper">
-                <h2 class="headline">Mac Studio</h2>
-                <h3>Now in Alpine Green.</h3>
-                <p class="avail">Available starting 3.18</p>
-                <div class="links">
-                    <a href="" class="blue-link iconfont">Learn more </a>
-                    <a href="" class="blue-link iconfont">Shop </a>
-                </div>
-            </div>
-        </div>
-        <div class="item iphone-13">
-            <div class="content-wrapper">
-                <h2 class="headline">iPhone 13 Pro</h2>
-                <h3>Now in Alpine Green.</h3>
-                <p class="avail">Available starting 3.18</p>
-                <div class="links">
-                    <a href="" class="blue-link iconfont">Learn more </a>
-                    <a href="" class="blue-link iconfont">Shop </a>
-                </div>
-            </div>
-        </div>
-        <div class="item watch">
-            <div class="content-wrapper">
-                <h2 class="headline">Watch</h2>
-                <h3>Now in Alpine Green.</h3>
-                <p class="avail">Available starting 3.18</p>
-                <div class="links">
-                    <a href="" class="blue-link iconfont">Learn more </a>
-                    <a href="" class="blue-link iconfont">Shop </a>
-                </div>
-            </div>
-        </div>
-        <div class="item card">
-            <div class="content-wrapper">
-                <h2 class="headline">Card</h2>
-                <h3>Get up to 3% Daily Cash back with every purchase.</h3>
-                <div class="links">
-                    <a href="" class="blue-link iconfont">Learn more </a>
-                    <a href="" class="blue-link iconfont">Shop </a>
-                </div>
-            </div>
-        </div>
-        <div class="item tv">
-            <div class="content-wrapper">
-                <h4></h4>
-                <p class="info">Live MLB Friday Night Baseball streaming soon, only on Apple TV+.</p>
-                <div class="links">
-                    <a href="" class="blue-link iconfont">Notify me </a>
-                </div>
-            </div>
-        </div>
-    </section>
+    </div>
 
     <!-- 页脚 -->
     <footer id="global-footer">
@@ -261,6 +194,29 @@
             </div>
         </div>
     </footer>
+    <script>
+        let isPinned = false
+        const h2 = document.querySelector('h2')
+        const observer = new IntersectionObserver(([e]) => {
+            isPinned = (e.intersectionRatio < 1)
+            e.target.classList.toggle('pinned', isPinned)
+        }, {
+            threshold: [1]
+        })
+        observer.observe(h2)
+            // 监听滚动事件
+        document.addEventListener('scroll', (e) => {
+            if (isPinned) {
+                let html = document.documentElement
+                    // 获取h2的高+margin-bottom
+                let height = parseInt(getComputedStyle(h2).getPropertyValue('height')) + parseInt(getComputedStyle(h2).getPropertyValue('margin-bottom'))
+                let marginTop = parseInt(getComputedStyle(h2).getPropertyValue('margin-top'))
+                    //已滚动的比例
+                let scrolled = parseFloat((html.scrollTop - marginTop) / height)
+                h2.style.setProperty('--scale', (1 - scrolled))
+            }
+        })
+    </script>
 </body>
 
 </html>

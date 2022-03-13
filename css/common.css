@@ -9,3 +9,8 @@
 * {
     font-family: SF Pro Text, Myriad Set Pro, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+
+.section-center {
+    width: 980px;
+    margin: 0 auto;
+}

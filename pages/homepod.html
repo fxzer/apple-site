@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePod</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_3241864_y5olqh57uek.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <style>
+        .description {
+            width: 490px;
+            padding: 80px 50px;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, .8);
+            border-radius: 20px;
+            text-align: center;
+            color: #fff;
+            margin: 0 auto 100vh;
+        }
+        
+        .description h3 {
+            font-size: 32px;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .description p {
+            font-size: 18px;
+            margin: 12px 0 0;
+        }
+        
+        .homepod-container {
+            width: 100%;
+            height: 100vh;
+            position: sticky;
+            top: 0;
+            z-index: -1;
+        }
+        
+        .homepod {
+            width: 654px;
+            height: 825px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .homepod div {
+            width: inherit;
+            height: inherit;
+            background-size: contain;
+            background-position: center center;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .device {
+            background-image: url(https://assets.codepen.io/2002878/homepod.jpg);
+        }
+        
+        .part-1 {
+            background-image: url(https://assets.codepen.io/2002878/homepod_1.jpg);
+            opacity: var(--part-1);
+        }
+        
+        .part-2 {
+            background-image: url(https://assets.codepen.io/2002878/homepod_2.jpg);
+            opacity: var(--part-2);
+        }
+        
+        .part-3 {
+            background-image: url(https://assets.codepen.io/2002878/homepod_3.jpg);
+            opacity: var(--part-3);
+        }
+        
+        .part-4 {
+            background-image: url(https://assets.codepen.io/2002878/homepod_4.jpg);
+            opacity: var(--part-4);
+        }
+        
+        .ending {
+            background-image: url(https://assets.codepen.io/2002878/homepod.jpg);
+            opacity: var(--ending);
+        }
+        
+        .description-container {
+            padding-bottom: 100vh;
+        }
+        
+        .description:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <nav id="global-nav">
+        <ul class="header">
+            <li class="nav-item">
+                <a href="../index.html" class="nav-link iconfont icon-apple-fill"> </a>
+            </li>
+            <li class="nav-item"><a href="./store.html" class="nav-link">Store</a></li>
+            <li class="nav-item"><a href="./mac.html" class="nav-link">Mac</a></li>
+            <li class="nav-item"><a href="./ipad.html" class="nav-link">iPad</a></li>
+            <li class="nav-item"><a href="./iphonese.html" class="nav-link">iPhone</a></li>
+            <li class="nav-item"><a href="./iphone13.html" class="nav-link">Watch</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">AirPods</a></li>
+            <li class="nav-item"><a href="homepod.html" class="nav-link">TV & Home</a></li>
+            <li class="nav-item"><a href="./niublity.html" class="nav-link">Only on Apple </a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Accessories</a></li>
+            <li class="nav-item"><a href="./niublity.html" class="nav-link">Support</a></li>
+            <li class="nav-item">
+                <a href="#" class="nav-link iconfont icon-search "> </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link iconfont icon-bag "> </a>
+            </li>
+        </ul>
+    </nav>
+    <section class="homepod-section">
+        <div class="homepod-container">
+            <div class="homepod">
+                <div class="device"></div>
+                <div class="part-1"></div>
+                <div class="part-2"></div>
+                <div class="part-3"></div>
+                <div class="part-4"></div>
+                <div class="ending"></div>
+            </div>
+        </div>
+        <div class="description-container">
+            <div class="description">
+                <h3>Deep bass with range you can feel.</h3>
+                <p>The Apple-designed high-excursion woofer is positioned at the top of the speaker facing upward, creating a wide range of deep bass that surpasses any traditional speaker. A six-microphone array, along with an internal bass-EQ microphone,
+                    analyzes and compensates for the effect of the room on the bass response, providing rich, consistent sound. And a powerful motor drives the diaphragm a remarkable 20 mm, so the bass shines through even when the volume is low.</p>
+            </div>
+
+            <div class="description">
+                <h3>Far and away an incredible listener.</h3>
+                <p>Six microphones positioned around HomePod allow it to pick up all the sound in a room. When you say “Hey Siri,” advanced signal processing, together with echo and noise cancellation, allows HomePod to hear you without the need to raise
+                    your voice — even if you’re across the room with loud music playing. After HomePod recognizes the words “Hey Siri,” what you say is encrypted and sent anonymously to Apple servers without being tied to your Apple ID.
+                </p>
+            </div>
+
+            <div class="description">
+                <h3>High-fidelity audio that’s all around you.</h3>
+                <p>A custom-designed array of seven beamforming tweeters, each with its own amplifier, creates tremendous directional control. Placed around the base and using a folded-horn design, they send the flow of music toward the center and then out
+                    the bottom in a 360-degree pattern, resulting in an all-encompassing sense of space. This virtually eliminates early table reflections and allows for consistent high-definition sound.</p>
+            </div>
+
+            <div class="description">
+                <h3>The biggest brain ever in a speaker.</h3>
+                <p>An Apple-designed A8 chip orchestrates all the remarkable audio innovations inside HomePod. Like advanced signal processing so Siri can hear you over the music. Real-time studio-level processing that maximizes the bass while minimizing
+                    distortion. Buffering that’s even faster than real time. And upmixing of both direct and ambient audio. You get amazing sound, every single time.</p>
+            </div>
+
+            <div class="description">
+                <h3>Designed to be seen and heard.</h3>
+                <p>HomePod is wrapped in a seamless mesh fabric designed for aesthetics and acoustic performance. Available in white and space gray, it’s gorgeous from every angle — yet virtually transparent to the sound waves passing through it.</p>
+            </div>
+        </div>
+    </section>
+    <!-- 页脚 -->
+    <footer id="global-footer">
+        <div class="footer-content">
+            <div class="breadcrumbs">
+                <a href="#" class="iconfont icon-apple-fill"></a>
+                <ul class="paths">
+                    <li class="path-item iconfont">
+                        <span> Apple Store Online</span>
+                    </li>
+                    <li class="path-item iconfont">
+                        <span> Apple Arcade</span>
+                    </li>
+                </ul>
+            </div>
+
+            <nav class="footer-list">
+                <ul>
+                    <h5>Shop and Learn</h5>
+                    <li><a> Mac</a></li>
+                    <li> <a>iPad</a></li>
+                    <li> <a>iPhone</a></li>
+                    <li> <a>iPhone</a></li>
+                    <li> <a>TV & Home</a></li>
+                    <li> <a>Music</a></li>
+                    <li> <a>iTunes</a></li>
+                    <li> <a>HomePod</a></li>
+                    <li> <a>iPod touch</a></li>
+                    <li> <a>Apple Card</a></li>
+                    <li> <a>Accessories</a></li>
+                    <li> <a>Gift Cards</a></li>
+                </ul>
+                <ul>
+                    <h5>Shop and Learn</h5>
+                    <li><a> Mac</a></li>
+                    <li> <a>iPad</a></li>
+                    <li> <a>iPhone</a></li>
+                    <li> <a>iPhone</a></li>
+                    <li> <a>TV & Home</a></li>
+                    <li> <a>Music</a></li>
+                    <li> <a>iTunes</a></li>
+                    <li> <a>HomePod</a></li>
+                    <li> <a>iPod touch</a></li>
+                    <li> <a>Apple Card</a></li>
+                    <li> <a>Accessories</a></li>
+                    <li> <a>Gift Cards</a></li>
+                </ul>
+                <ul>
+                    <h5>Shop and Learn</h5>
+                    <li><a> Mac</a></li>
+                    <li> <a>iPad</a></li>
+                    <li> <a>iPhone</a></li>
+                    <li> <a>iPhone</a></li>
+                    <li> <a>TV & Home</a></li>
+                    <li> <a>Music</a></li>
+                    <li> <a>iTunes</a></li>
+                    <li> <a>HomePod</a></li>
+                    <li> <a>iPod touch</a></li>
+                    <li> <a>Apple Card</a></li>
+                    <li> <a>Accessories</a></li>
+                    <li> <a>Gift Cards</a></li>
+                </ul>
+                <ul>
+                    <h5>Shop and Learn</h5>
+                    <li><a> Mac</a></li>
+                    <li> <a>iPad</a></li>
+                    <li> <a>iPhone</a></li>
+                    <li> <a>iPhone</a></li>
+                    <li> <a>TV & Home</a></li>
+                    <li> <a>Music</a></li>
+                    <li> <a>iTunes</a></li>
+                    <li> <a>HomePod</a></li>
+                    <li> <a>iPod touch</a></li>
+                    <li> <a>Apple Card</a></li>
+                    <li> <a>Accessories</a></li>
+                    <li> <a>Gift Cards</a></li>
+                </ul>
+                <ul>
+                    <h5>Shop and Learn</h5>
+                    <li><a> Mac</a></li>
+                    <li> <a>iPad</a></li>
+                    <li> <a>iPhone</a></li>
+                    <li> <a>iPhone</a></li>
+                    <li> <a>TV & Home</a></li>
+                    <li> <a>Music</a></li>
+                    <li> <a>iTunes</a></li>
+                    <li> <a>HomePod</a></li>
+                    <li> <a>iPod touch</a></li>
+                    <li> <a>Apple Card</a></li>
+                    <li> <a>Accessories</a></li>
+                    <li> <a>Gift Cards</a></li>
+                </ul>
+
+            </nav>
+
+            <div class="footer-info">
+                <div class="shop"> More ways to shop: <a class="blue-link" href="#">Find an Apple Store</a> or <a class="blue-link" href="#">other retailer</a> near you. Or call 1‑800‑MY‑APPLE.</div>
+                <div class="legal">
+                    <div class="copyright">
+                        Copyright © 2022 Apple Inc. All rights reserved.
+                    </div>
+                    <div class="links">
+                        <a href="">Privacy Policy</a>
+                        <a href="">Terms of Use</a>
+                        <a href=""> Sales and Refunds</a>
+                        <a href="">Legal</a>
+                        <a href="">Site Map</a>
+                    </div>
+                    <div class="locale">United State</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const homepodSection = document.querySelector('.homepod-section')
+
+        const sectionHeight = homepodSection.getBoundingClientRect().height
+
+        const html = document.documentElement
+
+        document.addEventListener('scroll', (e) => {
+                let scrolled = html.scrollTop / (sectionHeight - html.clientHeight)
+
+                homepodSection.style.setProperty('--part-1', calculateOpacity(0.05, 0.15, scrolled))
+                homepodSection.style.setProperty('--part-2', calculateOpacity(0.19, 0.23, scrolled))
+                homepodSection.style.setProperty('--part-3', calculateOpacity(0.35, 0.40, scrolled))
+                homepodSection.style.setProperty('--part-4', calculateOpacity(0.58, 0.63, scrolled))
+                homepodSection.style.setProperty('--ending', calculateOpacity(0.80, 0.85, scrolled))
+
+            })
+            // 判断当前应该让那个图片显示
+        function calculateOpacity(start, end, percent) {
+            // 不显示没滚动到位置的
+            if (percent - start < 0) return 0
+                // 显示已经滚动显示过的
+            if (percent - end > 0) return 1
+                // 变化在指定区间的图片透明度
+            return (percent - start) / (end - start)
+        }
+    </script>
+</body>
+
+</html>

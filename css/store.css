@@ -1,0 +1,165 @@
+body {
+    background-color: #F5F5F7;
+}
+
+#store {
+    display: flex;
+}
+
+#store .left-text {
+    flex-basis: 66%;
+    font-size: 48px;
+    padding: 80px 0 64px;
+    font-weight: 600;
+    color: #1d1d1f;
+}
+
+#store .right-help {
+    flex-basis: 34%;
+}
+
+#store .right-help {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0 64px;
+}
+
+#store .right-help .item {
+    display: flex;
+    height: 36px;
+    margin-bottom: 16px;
+}
+
+#store .right-help .item .img {
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+#store .right-help .text .help-info {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+#store .right-help .text .help-link {
+    font-size: 12px;
+}
+
+
+/* 产品轮播 */
+
+.lunbo-box {
+    padding-bottom: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lunbo-box .product-item {
+    width: 120px;
+    margin: 16px 16px;
+}
+
+.lunbo-box .product-item .product-img {
+    width: 100%;
+    height: 78px;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.lunbo-box .product-item .product-name {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #1d1d1f;
+    font-weight: 600;
+}
+
+
+/* 大卡片 */
+
+.card-wrapper .title {
+    width: 1240px;
+    margin: 0 auto 24px;
+    font-size: 28px;
+    color: #6e6e73;
+    font-weight: 600;
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.card-wrapper .title>span {
+    color: #1d1d1f;
+}
+
+.card-box {
+    display: flex;
+    width: 1660px;
+    margin: 0 auto;
+}
+
+.card-box .card-item {
+    width: 400px;
+    height: 500px;
+    background-color: #FFFFFF;
+    margin-right: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: 400px 500px;
+    background-position: center;
+}
+
+.card-box .card-item:nth-of-type(1) {
+    background-image: url('../images/store/85.jpg');
+}
+
+.card-box .card-item:nth-of-type(2) {
+    background-image: url('../images/store/84.jpg');
+}
+
+.card-box .card-item:nth-of-type(3) {
+    background-image: url('../images/store/86.jpg');
+}
+
+.card-box .card-item:nth-of-type(4) {
+    background-image: url('../images/store/89.jpg');
+}
+
+.card-box .card-item .head {
+    width: inherit;
+    padding: 30px;
+}
+
+.card-box .card-item .head .name {
+    font-size: 12px;
+    color: #6e6e73;
+    margin-bottom: 20px;
+}
+
+.card-box .card-item .head .title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 18px;
+}
+
+.card-box .card-item .head .info {
+    font-size: 17px;
+    color: #1d1d1f;
+}
+
+.card-box .ipadair .head .name {
+    color: #fff;
+}
+
+.card-box .ipadair .head .title {
+    color: #fff;
+}
+
+.card-box .ipadair .head .info {
+    color: #fff;
+}

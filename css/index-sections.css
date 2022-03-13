@@ -33,15 +33,15 @@
  }
  
  .section2 .iphone-13 {
-     background-image: url('../images/image15.jpg');
+     background-image: url('../images/index/image15.jpg');
  }
  
  .section2 .iphone-se {
-     background-image: url('../images/image16.jpg');
+     background-image: url('../images/index/image16.jpg');
  }
  
  .section2 .ipad-air {
-     background-image: url('../images/image14.jpg');
+     background-image: url('../images/index/image14.jpg');
      position: relative;
  }
  
@@ -54,7 +54,7 @@
  }
  
  .homepage-section .ipad-air .headline {
-     background-image: url('../images/image17.png');
+     background-image: url('../images/index/image17.png');
      background-repeat: no-repeat;
      background-position: center;
  }
@@ -132,27 +132,27 @@
  }
  
  .item.studio-display {
-     background-image: url('../images/image25.jpg');
+     background-image: url('../images/index/image25.jpg');
  }
  
  .item.mac-studio {
-     background-image: url('../images/image23.jpg');
+     background-image: url('../images/index/image23.jpg');
  }
  
  .item.iphone-13 {
-     background-image: url('../images/image20.jpg');
+     background-image: url('../images/index/image20.jpg');
  }
  
  .item.watch {
-     background-image: url('../images/image26.jpg');
+     background-image: url('../images/index/image26.jpg');
  }
  
  .item.card {
-     background-image: url('../images/image27.jpg');
+     background-image: url('../images/index/image27.jpg');
  }
  
  .item.tv {
-     background-image: url('../images/image24.jpg');
+     background-image: url('../images/index/image24.jpg');
  }
  
  .collection .content-wrapper {
@@ -183,7 +183,7 @@
      margin: 90px auto 90px;
      color: #f5f5f7;
      font-weight: 800;
-     background-image: url('../images/image21.png');
+     background-image: url('../images/index/image21.png');
      background-repeat: no-repeat;
  }
  
